@@ -1,6 +1,11 @@
 import java.text.NumberFormat;
 import java.util.ArrayList;
 
+/**
+* Initializes the variables storing the name, class, and bonus eligibility of an employee. Also computes and formats salaries based
+* on their class, and other aspects depending on the class type.
+*/
+
 public class EmployeeData {
     private String employeeName;
     private char employeeClass;
